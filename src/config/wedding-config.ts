@@ -37,11 +37,11 @@ export const weddingConfig = {
   // 결혼식 일정
   date: {
     year: 2026,
-    month: 5,
-    day: 16,
-    hour: 12,
+    month: 10,
+    day: 17,
+    hour: 15,
     minute: 30,
-    displayDate: "2026.05.16 SAT PM 12:30",
+    displayDate: "2026.10.17 SAT PM 15:30",
   },
 
   // 장소 정보
@@ -111,8 +111,8 @@ export const weddingConfig = {
     bride: {
       name: "한혜진",
       label: "딸",
-      father: "신부아버지",
-      mother: "신부어머니",
+      father: "한성욱",
+      mother: "박은희",
     },
   },
 
@@ -124,29 +124,29 @@ export const weddingConfig = {
       holder: "신랑이름",
     },
     bride: {
-      bank: "한혜진",
+      bank: "우리은행",
       number: "987-654-321098",
-      holder: "신부이름",
+      holder: "한혜진",
     },
     groomFather: {
       bank: "은행명",
       number: "111-222-333444",
-      holder: "신랑아버지",
+      holder: "이유균",
     },
     groomMother: {
       bank: "은행명",
       number: "555-666-777888",
-      holder: "신랑어머니",
+      holder: "이선희",
     },
     brideFather: {
       bank: "은행명",
       number: "999-000-111222",
-      holder: "신부아버지",
+      holder: "한성욱",
     },
     brideMother: {
       bank: "은행명",
       number: "333-444-555666",
-      holder: "신부어머니",
+      holder: "박은희",
     }
   },
 
