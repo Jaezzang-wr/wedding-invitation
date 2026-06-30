@@ -13,7 +13,7 @@ interface GalleryConfig {
 export const weddingConfig = {
   // 메타 정보
   meta: {
-    title: "신랑 ❤️ 신부의 결혼식에 초대합니다",
+    title: "이재창 ❤️ 한혜진의 결혼식에 초대합니다",
     description: "결혼식 초대장",
     ogImage: "/images/ha0h-1fsi-bqt3.jpg",
     noIndex: true,
