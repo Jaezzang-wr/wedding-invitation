@@ -20,11 +20,11 @@ const Footer = () => {
         <Copyright>© {currentYear} Lee Jae Chang</Copyright>
         <Credits>❤️</Credits>
         <GithubLink
-          href="https://github.com/jw-koo/wedding-invitation"
+          href="https://github.com/jaezzang-wr/wedding-invitation"
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub 저장소 바로가기
+          .
         </GithubLink>
         <HiddenAttribution data-jwk-id={watermarkId}>
           NonCommercial
