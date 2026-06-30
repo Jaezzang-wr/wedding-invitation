@@ -24,8 +24,8 @@ export const weddingConfig = {
   main: {
     title: "Wedding Invitation",
     image: "/images/ha0h-1fsi-bqt3.jpg",
-    date: "2026년 5월 16일 토요일 12시 30분",
-    venue: "웨딩홀 이름"
+    date: "2026년 10월 17일 토요일 15시 30분",
+    venue: "엘블레스"
   },
 
   // 소개글
@@ -46,10 +46,10 @@ export const weddingConfig = {
 
   // 장소 정보
   venue: {
-    name: "웨딩홀 이름",
-    address: "서울특별시 강남구 테헤란로 123\n웨딩홀 이름",
-    tel: "02-1234-5678",
-    naverMapId: "웨딩홀 이름", // 네이버 지도 검색용 장소명
+    name: "엘블레스",
+    address: "서울 서초구 강남대로 213 지하1층/n다이아몬드홀",
+    tel: "02-526-0300",
+    naverMapId: "엘블레스", // 네이버 지도 검색용 장소명
     coordinates: {
       latitude: 37.5665,
       longitude: 126.9780,
@@ -58,28 +58,10 @@ export const weddingConfig = {
     mapZoom: "17", // 지도 줌 레벨
     mapNaverCoordinates: "14141300,4507203,15,0,0,0,dh", // 네이버 지도 길찾기 URL용 좌표 파라미터 (구 형식)
     transportation: {
-      subway: "지하철역 1번 출구에서 도보 5분",
+      subway: "(3호선, 신분당선) 양재역 9번 출구 (바로 연결)",
       bus: "간선\n 101, 102, 103\n지선\n 1234, 5678",
     },
-    parking: "건물 지하 주차장 이용 가능 (2시간 무료)",
-    // 신랑측 배차 안내
-    groomShuttle: {
-      location: "신랑측 배차 출발지",
-      departureTime: "오전 10시 30분 출발",
-      contact: {
-        name: "담당자명",
-        tel: "010-1234-5678"
-      }
-    },
-    // 신부측 배차 안내
-    brideShuttle: {
-      location: "신부측 배차 출발지",
-      departureTime: "오전 11시 출발",
-      contact: {
-        name: "담당자명",
-        tel: "010-9876-5432"
-      }
-    }
+    parking: "서울시 서초구 강남대로 221번지\n네비게이션에 '양재역 주차장' 검색",
   },
 
   // 갤러리
@@ -103,13 +85,13 @@ export const weddingConfig = {
   invitation: {
     message: "한 줄기 별빛이 되어 만난 인연\n평생을 함께 걸어가려 합니다.\n\n소중한 분들의 축복 속에\n저희 두 사람이 첫 걸음을 내딛습니다.\n\n귀한 시간 내어 함께해 주신다면\n그 어떤 축복보다 값진 선물이 될 것입니다.",
     groom: {
-      name: "신랑이름",
+      name: "이재창",
       label: "아들",
-      father: "신랑아버지",
-      mother: "신랑어머니",
+      father: "이유균",
+      mother: "이선희",
     },
     bride: {
-      name: "신부이름",
+      name: "한혜진",
       label: "딸",
       father: "신부아버지",
       mother: "신부어머니",
@@ -119,12 +101,12 @@ export const weddingConfig = {
   // 계좌번호
   account: {
     groom: {
-      bank: "은행명",
+      bank: "우리은행",
       number: "123-456-789012",
       holder: "신랑이름",
     },
     bride: {
-      bank: "은행명",
+      bank: "한혜진",
       number: "987-654-321098",
       holder: "신부이름",
     },
