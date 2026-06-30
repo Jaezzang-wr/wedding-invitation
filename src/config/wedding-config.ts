@@ -87,15 +87,15 @@ export const weddingConfig = {
     layout: "grid" as GalleryLayout, // "scroll" 또는 "grid" 선택
     position: "bottom" as GalleryPosition, // "middle" (현재 위치) 또는 "bottom" (맨 하단) 선택
     images: [
-      "/images/pictures/image1.jpg",
-      "/images/pictures/image2.jpg",
-      "/images/pictures/image3.jpg",
-      "/images/pictures/image4.jpg",
-      "/images/pictures/image5.jpg",
-      "/images/pictures/image6.jpg",
-      "/images/pictures/image7.jpg",
-      "/images/pictures/image8.jpg",
-      "/images/pictures/image9.jpg",
+      "/images/gallery/picture1.jpg",
+      "/images/gallery/picture2.jpg",
+      "/images/gallery/picture3.jpg",
+      "/images/gallery/picture4.jpg",
+      "/images/gallery/picture5.jpg",
+      "/images/gallery/picture6.jpg",
+      "/images/gallery/picture7.jpg",
+      "/images/gallery/picture8.jpg",
+      "/images/gallery/picture9.jpg",
     ],
   } as GalleryConfig,
 
