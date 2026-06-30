@@ -256,7 +256,7 @@ const VenueSection = ({ bgColor = 'white' }: VenueSectionProps) => {
       </ParkingCard>
       
       {/* 신랑측 배차 안내 - 정보가 있을 때만 표시 */}
-      {weddingConfig.venue.groomShuttle && (
+      {weddingConfig.venue.groomShuttle.location && (
         <ShuttleCard>
           <ShuttleCardHeader onClick={() => toggleShuttle('groom')} $isExpanded={expandedShuttle === 'groom'}>
             <CardTitle>신랑측 배차 안내</CardTitle>
@@ -290,7 +290,7 @@ const VenueSection = ({ bgColor = 'white' }: VenueSectionProps) => {
       )}
       
       {/* 신부측 배차 안내 - 정보가 있을 때만 표시 */}
-      {weddingConfig.venue.brideShuttle && (
+      {weddingConfig.venue.brideShuttle.location && (
         <ShuttleCard>
           <ShuttleCardHeader onClick={() => toggleShuttle('bride')} $isExpanded={expandedShuttle === 'bride'}>
             <CardTitle>신부측 배차 안내</CardTitle>
