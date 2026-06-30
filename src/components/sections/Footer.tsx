@@ -17,7 +17,7 @@ const Footer = () => {
     <FooterContainer>
       {/* WeddingInvitation-Footer-NonCommercial DO NOT CHANGE*/}
       <FooterContent>
-        <Copyright>© {currentYear} Lee Jae Chang</Copyright>
+        <Copyright>© {currentYear} Made by Lee Jae Chang</Copyright>
         <Credits>❤️</Credits>
         <GithubLink
           href="https://github.com/jaezzang-wr/wedding-invitation"
