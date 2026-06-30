@@ -47,7 +47,7 @@ export const weddingConfig = {
   // 장소 정보
   venue: {
     name: "엘블레스",
-    address: "서울 서초구 강남대로 213 지하1층/n다이아몬드홀",
+    address: "서울 서초구 강남대로 213 지하1층\n다이아몬드홀",
     tel: "02-526-0300",
     naverMapId: "엘블레스", // 네이버 지도 검색용 장소명
     coordinates: {
