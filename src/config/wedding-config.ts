@@ -111,7 +111,7 @@ export const weddingConfig = {
     bride: {
       name: "한혜진",
       label: "딸",
-      father: "한성욱",
+      father: "한상욱",
       mother: "박은희",
     },
   },
