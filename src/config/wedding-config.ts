@@ -62,8 +62,24 @@ export const weddingConfig = {
       bus: "간선\n 101, 102, 103\n지선\n 1234, 5678",
     },
     parking: "서울시 서초구 강남대로 221번지\n네비게이션에 '양재역 주차장' 검색",
-    groomShuttle: null,
-    brideShuttle: null,
+    // 신랑측 배차 안내
+    groomShuttle: {
+      location: "",
+      departureTime: "",
+      contact: {
+        name: "",
+        tel: ""
+      }
+    },
+    // 신부측 배차 안내
+    brideShuttle: {
+      location: "",
+      departureTime: "",
+      contact: {
+        name: "",
+        tel: ""
+      }
+    }
   },
 
   // 갤러리
