@@ -19,6 +19,16 @@ const Footer = () => {
       <FooterContent>
         <Copyright>© {currentYear} Lee Jae Chang</Copyright>
         <Credits>❤️</Credits>
+        <GithubLink
+          href="https://github.com/jw-koo/wedding-invitation"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          
+        </GithubLink>
+        <HiddenAttribution data-jwk-id={watermarkId}>
+          NonCommercial
+        </HiddenAttribution>
       </FooterContent>
     </FooterContainer>
   );
