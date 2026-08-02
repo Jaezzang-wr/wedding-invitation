@@ -51,12 +51,12 @@ export const weddingConfig = {
     tel: "02-526-0300",
     naverMapId: "엘블레스", // 네이버 지도 검색용 장소명
     coordinates: {
-      latitude: 37.4832,
-      longitude: 127.0347,
+      latitude: 37.4827,
+      longitude: 127.0349,
     },
     placeId: "37688101", // 네이버 지도 장소 ID
-    mapZoom: "15.00", // 지도 줌 레벨
-    mapNaverCoordinates: "127.0347209,37.4832501,15.00,0,0,0,dh", // 네이버 지도 길찾기 URL용 좌표 파라미터 (구 형식)
+    mapZoom: "16.00", // 지도 줌 레벨
+    mapNaverCoordinates: "127.0349479,37.4827664,16.00,0,0,0,dh", // 네이버 지도 길찾기 URL용 좌표 파라미터 (구 형식)
     transportation: {
       subway: "(3호선, 신분당선) 양재역 9번 출구 (바로 연결)",
       bus: "간선\n 101, 102, 103\n지선\n 1234, 5678",
