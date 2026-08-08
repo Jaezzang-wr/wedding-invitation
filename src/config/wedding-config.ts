@@ -87,21 +87,21 @@ export const weddingConfig = {
     layout: "grid" as GalleryLayout, // "scroll" 또는 "grid" 선택
     position: "bottom" as GalleryPosition, // "middle" (현재 위치) 또는 "bottom" (맨 하단) 선택
     images: [
-      "/images/gallery/picture1.jpg",
-      "/images/gallery/picture2.jpg",
-      "/images/gallery/picture3.jpg",
-      "/images/gallery/picture4.jpg",
-      "/images/gallery/picture5.jpg",
-      "/images/gallery/picture6.jpg",
-      "/images/gallery/picture7.jpg",
-      "/images/gallery/picture8.jpg",
-      "/images/gallery/picture9.jpg",
+      "/images/gallery/pic1.jpg",
+      "/images/gallery/pic2.jpg",
+      "/images/gallery/pic3.jpg",
+      "/images/gallery/pic4.jpg",
+      "/images/gallery/pic5.jpg",
+      "/images/gallery/pic6.jpg",
+      "/images/gallery/pic7.jpg",
+      "/images/gallery/pic8.jpg",
+      "/images/gallery/pic9.jpg",
     ],
   } as GalleryConfig,
 
   // 초대의 말씀
   invitation: {
-    message: "한 줄기 별빛이 되어 만난 인연\n평생을 함께 걸어가려 합니다.\n\n소중한 분들의 축복 속에\n저희 두 사람이 첫 걸음을 내딛습니다.\n\n귀한 시간 내어 함께해 주신다면\n그 어떤 축복보다 값진 선물이 될 것입니다.",
+    message: "평생을 함께하고 싶은 사람을 만났습니다.\n이제는 남이 아닌 '우리'라는 이름으로\n같은 길을 걸어가려 합니다.\n\n소중한 분들을 모시고\n저희 두 사람이 첫 걸음을 내딛습니다.\n귀한 걸음으로 축복해 주시면 감사하겠습니다.",
     groom: {
       name: "이재창",
       label: "아들",
