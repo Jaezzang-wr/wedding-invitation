@@ -124,8 +124,8 @@ export const weddingConfig = {
       holder: "이재창",
     },
     bride: {
-      bank: "카카오뱅크",
-      number: "3333-05-9700837",
+      bank: "우리은행",
+      number: "1002-162-026067",
       holder: "한혜진",
     },
     groomFather: {
